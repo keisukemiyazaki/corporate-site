@@ -588,14 +588,27 @@ h1{
   text-decoration: none;
 }
 
-
+// max-width: 550px
 
 @media (max-width: 550px) {
      .pc_sidemenu{
        display: none;
      }
    }
-   // max-width: 550px
+   
+@media (max-width: 550px) {
+     .pc_sidemenu{
+       display: none;
+     }
+   }
+   
+@media (max-width: 550px){
+  #contents #main .news_li li span {
+  display: block;
+}
+}
+   
+// max-width: 550px
    
    
    
@@ -609,6 +622,10 @@ h1{
   padding: 20px 0;
   color: #626262;
   font-size: 1.4rem;
+}
+
+#contents #main .company_title {
+  margin-bottom:0px;
 }
 
 
